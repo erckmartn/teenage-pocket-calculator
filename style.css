@@ -18,6 +18,9 @@
 
 
 
+
+
+
 *,
 ::before,
 *::after {
@@ -29,17 +32,17 @@
 
 @font-face {
     font-family: "Univers Next Pro Thin";
-    src: url("fonts/UniversNextPro-Thin.ttf") format("truetype");
+    src: url("assets/fonts/UniversNextPro-Thin.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Univers Next Pro Light Cond";
-    src: url("fonts/UniversNextPro-LightCond.ttf") format("truetype");
+    src: url("assets/fonts/UniversNextPro-LightCond.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Digital-7";
-    src: url("fonts/digital-7.regular.ttf") format("truetype");
+    src: url("assets/fonts/digital-7.regular.ttf") format("truetype");
 }
 
 /*Codigo base*/
@@ -313,6 +316,7 @@ svg {
 }
 
 
+
 .body-pocket__display {
     background-color: #d1ccce;
     margin: 0 24px;
@@ -397,6 +401,7 @@ svg {
     margin: 15px;
     font-size: 22px;
 /*    background-color: red;*/
+    cursor: pointer;
 }
 
 /*.container_title {
